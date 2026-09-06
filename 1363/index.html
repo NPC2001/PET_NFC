@@ -181,23 +181,27 @@
   import { getFirestore, doc, getDoc, setDoc, updateDoc }
     from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
 
-
- const PET = {
-    name: "Goldie",
-    species: "Munchkin Golden Tabby",
+  // ==============================
+  // 只需要改这里 ↓
+  // ==============================
+  const PET = {
+    name: "Kiki",
+    species: "Pomeranian",
     gender: "Female",
-    born: "01.08.2025",
-    nfcId: "pet-1321",
+    born: "22/4/2026",
+    nfcId: "PET-1363",
     allergy: "None",
-    notes: "Shy, food-loving, and playful ",
-    owner: "Christine Lo",
-    phone: "60122794868",
-    photo: "1321.jpeg",
-    sound: "1321.mp3",
+    notes: "Gentle, friendly, not afraid of big dogs and very attached to mom❤️",
+    owner: "Kent/Yuuki",
+    phone: "60149050317",
+    photo: "1363.jpeg",
+    sound: "1363.mp3",
     vaccinated: true,
-    firestoreId: "1321",
+    firestoreId: "1363",
   };
-  
+  // ==============================
+  // 以下不需要改 ↑
+  // ==============================
 
   const firebaseConfig = {
     apiKey: "AIzaSyAMtqOGU-lNGqwOyb-IThZDEYsfGxZvjGA",
